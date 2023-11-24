@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, Pressable, View, Text, StyleSheet, SafeAreaView } from 'react-native';
 
-export default function ToDoList(){
+export default function ToDoList({tasks}){
   const [text, setText] = React.useState('');
     return(
     <ScrollView>
